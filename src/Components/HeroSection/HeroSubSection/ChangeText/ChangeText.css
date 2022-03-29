@@ -1,0 +1,23 @@
+.heading1 {
+  color: #282c35;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  margin: 0;
+  }
+
+ #animate{
+  opacity:0;
+}
+
+.animate-bottom{position:relative;
+  animation:animatebottom 3.4s}
+
+
+@keyframes animatebottom
+{
+  0%{bottom:-15px;opacity:0}
+  25%{bottom:0px;opacity:1}
+ 95%{bottom: 0px;opacity: 1;}
+ 100%{bottom:10px;opacity:0}
+}

@@ -1,0 +1,193 @@
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 80%;
+  margin-left: 32px;
+}
+
+.heading2 {
+  font-size: 24px;
+  font-weight: 300;
+  width: 600px;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  color: #686b78;
+  margin: 0;
+}
+
+.searchWrap {
+  position: relative;
+  width: 620px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.search {
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  height: 58px;
+  margin: 0;
+  border: 1px solid #bebfc5;
+  outline: none;
+  background-color: transparent;
+  line-height: 28px;
+  padding: 0 20px;
+  caret-color: #fc8019;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input:focus {
+  border: 1px solid #fc8019;
+}
+
+.btnInsideInput {
+  position: absolute;
+  right: 150px;
+  top: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.locateBtn {
+  color: #535665;
+}
+
+.locationIcon {
+  width: 16px;
+  vertical-align: middle;
+  padding-right: 6px;
+}
+
+.clearBtn {
+    color: #fc8019;
+  }
+
+.findBtn {
+  height: inherit;
+  width: 200px;
+  padding: 0;
+  background-color: #fc8019;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.heading3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #a9abb2;
+  letter-spacing: -0.2px;
+  margin-top: 0;
+}
+
+.list {
+  width: 570px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.listItem {
+  display: inline-block;
+  padding: 0;
+}
+
+.listLink {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 8px;
+  color: #686b78;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+.listLink:hover{
+  color: #fc8019;
+}
+
+.listItem:nth-child(2n) .listLink {
+  color: #93959f;
+}
+
+.listItem:nth-child(2n) .listLink:hover{
+  color: #fc8019;
+}
+
+@media screen and (max-width: 730px) {
+  .heading2{
+    color: #4d515f;
+  }
+  .input{
+    background-color: white;
+    border-color: #ffffff85;
+  }
+  .heading3{
+    color: #81838d;
+  }
+  .listLink{
+    color: #4d4f5c;
+  }
+  .listItem:nth-child(2n) .listLink {
+  color: #71717c;
+  }
+  .searchWrap{
+  width: 85vw;
+  }
+  .btnInsideInput{
+  right: 24.2%;
+  }
+  .list{
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 610px){
+  .flexContainer{
+    margin-left: 15px;
+  }
+  .heading2{
+    width: auto;
+  }
+  .input{
+    padding: 0 70px 0 1.5vw;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .searchWrap{
+    width: auto;
+  }
+  .locationIcon{
+    padding-right: 4px;
+  }
+}
+
+@media screen and (max-width: 460px){
+   .btnText{
+    display: none;
+  } 
+  .btnInsideInput{
+     width: auto;
+  }
+  .locationIcon{
+    padding-right: 10px;
+  }
+}

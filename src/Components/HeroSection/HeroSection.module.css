@@ -1,0 +1,91 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 60px;
+  background-color: transarent;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 32px;
+}
+
+.item {
+  width: 100%;
+  height: 540px;
+}
+
+.logo {
+  width: 190px;
+  height: 55px;
+}
+
+.lunchImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 11px 28px;
+  cursor: pointer;
+  width: auto;
+  font-weight: 600;
+}
+
+.loginBtn {
+  color: black;
+  background-color: transparent;
+}
+
+.loginBtn:hover {
+  color: #fc8019;
+}
+.signupBtn {
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 730px) {
+  .flexContainer{
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    column-gap: 0;
+  }
+  .item{
+    background-color: rgba(255, 254, 254, 0.5);
+  }
+  .lunchImg{
+    display: none;
+  }
+  .loginBtn{
+    background-color: white;
+    margin-right: 20px;
+  }
+  .signupBtn{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 585px){
+  .navContainer{
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 520px){
+  .loginBtn{
+    margin-right: 2vw;
+  }
+}

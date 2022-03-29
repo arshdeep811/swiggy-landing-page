@@ -1,0 +1,12 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(./Fonts/proxima_nova_regular.ttf);
+  font-weight: 400;
+}
+
+* {
+  font-family: "ProximaNova";
+}
+body {
+  overflow-x: hidden;
+}
