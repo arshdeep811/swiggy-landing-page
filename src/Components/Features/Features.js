@@ -8,7 +8,7 @@ const Features = () => {
         <div className={styles.card}>
           <div>
             <img
-              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+              src="./images/4x_-_No_min_order_x0bxuf.webp"
               alt="ability"
               className={styles.feautresImg}
             />
@@ -25,7 +25,7 @@ const Features = () => {
         <div className={styles.card}>
           <div>
             <img
-              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+              src="./images/4x_Live_order_zzotwy.webp"
               alt="ability"
               className={styles.feautresImg}
             />
@@ -42,7 +42,7 @@ const Features = () => {
         <div className={styles.card}>
           <div>
             <img
-              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+              src="./images/4x_-_Super_fast_delivery_awv7sn.webp"
               alt="ability"
               className={styles.feautresImg}
             />

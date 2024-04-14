@@ -9,7 +9,7 @@ const HeroSection = () => {
         <nav className={styles.navContainer}>
           <div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/1200px-Swiggy_logo.svg.png"
+              src="./images/1200px-Swiggy_logo.png"
               alt="logo"
               className={styles.logo}
             />
@@ -25,8 +25,8 @@ const HeroSection = () => {
       </div>
       <div className={styles.item}>
         <img
-          src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq"
-          alt="lunch"
+          src="./images/Lunch1_vlksgq.jpg"
+          alt="lunchImage"
           className={styles.lunchImg}
         />
       </div>

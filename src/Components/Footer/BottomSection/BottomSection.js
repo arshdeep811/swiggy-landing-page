@@ -13,7 +13,7 @@ const BottomSection = () => {
       <div className="bottomItem">
         <img
           className="swiggyImg"
-          src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_284/Logo_f5xzza"
+          src="./images/swiggy-white-logo.png"
           alt="Swiggy logo"
         />
       </div>
